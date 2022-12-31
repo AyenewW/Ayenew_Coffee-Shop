@@ -1,0 +1,22 @@
+    .container {
+        display: grid;
+        border: 1px solid black;
+        row-gap: 30px;
+        column-gap: 50px;
+        columns: 10px;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr  2fr;
+        background-color: rgb(240, 237, 233);
+        
+    }
+    .item {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+        background-color: aqua;
+    }
+    .span{
+        grid-column-start:1 ;
+        grid-column-end:4 ;
+    }
+    

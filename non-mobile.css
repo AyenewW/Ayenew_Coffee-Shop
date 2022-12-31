@@ -1,0 +1,57 @@
+ .container
+  {
+        display: grid;
+        border: 1px solid black;
+        row-gap: 30px;
+        column-gap: 50px;
+        columns: 10px;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr  2fr 1fr ;
+        background-color: rgb(7, 243, 7);
+
+    }
+    .item 
+    {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+      background-color: rgb(231, 231, 218);
+    }
+
+    .span
+    {
+        grid-column-start:1 ;
+        grid-column-end: 5;
+    }
+    .link1
+    {
+        grid-column-start:1;
+        grid-column-end:4 ;
+    }
+    .link2
+    {
+        grid-column-start:4;
+        grid-column-end:5;
+    }
+    .link3
+    {
+        grid-column-start:3 ;
+        grid-column-end: 5;
+        grid-row-start:3 ;
+        grid-row-end: 5;
+    }
+    .link4
+    {
+    grid-column-start:1;
+    grid-column-end:3 ;
+    }
+    .link5
+    {grid-column-start: 1;
+        grid-column-end: 2;
+
+    }
+    .link6
+    {
+      grid-column-start: 2;  
+      grid-column-end:3 ;
+    }
